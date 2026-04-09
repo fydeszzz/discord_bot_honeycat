@@ -1,0 +1,54 @@
+# =============================================
+# Discord Bot Ordering Menu Configuration File
+# =============================================
+# Instructions:
+#   - Lines starting with # are comments and will not be read
+#   - Use [Category Name] to mark each section
+#   - Each item should be on one line: Item Name, emoji
+#   - The emoji can be omitted
+#   - To add an item: simply add a new line under the corresponding section
+#   - To delete an item: remove the line or add # at the beginning
+#   - Changes will take effect after saving and restarting the bot
+# =============================================
+
+# Main Dishes Section
+# Bread-based items
+
+[主餐]
+吐司, 🍞
+蛋餅, 🫓
+可頌, 🥐
+漢堡包, 🍔
+
+# =============================================
+# Main Ingredients Section
+# Protein options / Carb add-ons
+
+[主食材]
+培根, 🥓
+豬肉餅, 🥩
+薯餅, 🥔
+生菜, 🥬
+果醬(限吐司/可頌)
+
+# =============================================
+# Toppings Section (Optional)
+# Dairy / Vegetables / Extra add-ons
+
+[配料]
+起司, 🧀
+生菜, 🥬
+番茄片, 🍅
+加蛋, 🍳
+
+# =============================================
+# Sauces Section
+
+[醬料]
+番茄醬, 🍅
+醬油, 🫙
+辣醬, 🌶️
+奶油, 🧈
+花生醬, 🥜
+草莓果醬, 🍓
+不加醬, 🚫

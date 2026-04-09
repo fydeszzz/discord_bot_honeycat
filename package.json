@@ -1,0 +1,15 @@
+{
+  "name": "discord-claude-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot powered by Claude AI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "discord.js": "^14.16.0",
+    "dotenv": "^16.4.5"
+  }
+}
