@@ -3,7 +3,6 @@
 A Discord bot powered by Claude AI, featuring intelligent conversation and an interactive food ordering system built with discord.js v14.
 
 ---
-
 ## 🤖 Features
 
 **AI Conversation**
@@ -27,7 +26,6 @@ A Discord bot powered by Claude AI, featuring intelligent conversation and an in
 - Lunch option coming soon
 
 ---
-
 ## 📁 Project Structure
 
 ```
@@ -41,7 +39,6 @@ discord-claude-bot/
 ```
 
 ---
-
 ## 🍽️ Customizing the Menu
 
 All menu items are defined in `menu.txt` — no coding required. Open it with any text editor and follow the format:
@@ -60,7 +57,6 @@ Rules:
 - Save the file and restart the bot for changes to take effect
 
 ---
-
 ## 🔧 Tech Stack
 
 - **Runtime:** Node.js (ESM)
@@ -69,7 +65,6 @@ Rules:
 - **Config:** dotenv
 
 ---
-
 ## 🚀 Getting Started
 
 1. Clone the repository and install dependencies:
@@ -94,13 +89,21 @@ npm start
 > **Note:** The Anthropic API requires separate billing from a Claude.ai subscription. Add credits at [console.anthropic.com](https://console.anthropic.com).
 
 ---
+## ☕ Usage
+1. Run the command **!order** in the chat. A selection menu will appear:
+![Step 1](images/01.png)
 
+2. Choose your main dish, main ingredient, toppings (optional), sauce, and add notes (optional):
+![Step 2](images/02.png)
+![Step 3](images/03.png)
+
+3. After submitting the order, the bot will repost the order details in the chat (visible to everyone):
+![Step 4](images/04.png)
+
+---
 ## 👤 Author
-
 Ricy Hsu
 
 ---
-
 ## 📅 Last Updated
-
 April 8, 2026
